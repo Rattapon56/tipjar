@@ -42,6 +42,26 @@
 			},
 			{
 				"inputs": [],
+				"name": "distributeBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "removeWaitress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "viewWaitress",
 				"outputs": [
 					{
@@ -112,11 +132,11 @@
 	},
 	"sources": {
 		"tipjar.sol": {
-			"keccak256": "0x604e167ea7887e57bf320d8335867d4cdd478fa9baab559f029a84505f4eb2b6",
+			"keccak256": "0x03f3f51019017ef169b1ad07d29d3bb226331e53e23118bfbd6db0983135c923",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://227da470ef1ec1c38fdae61900ac7f408ef9ae8050c7572696c2f0bbeb8b284a",
-				"dweb:/ipfs/QmcJ9gyCeFhxCs7M5M3feWRhywMy6FdXXNDPU3SXtbyByx"
+				"bzz-raw://2f42b01204d771832bd6d9cd515d56936976ef5c415f3a535f9c3bb99b131104",
+				"dweb:/ipfs/QmNRBGbyCd9tjDWLwmXo2zik75gEwESXvQF4TpNxbXJ12q"
 			]
 		}
 	},
